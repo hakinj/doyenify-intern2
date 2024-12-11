@@ -1,0 +1,123 @@
+@media (max-width: 1159px) {
+    .nav-container ul li:nth-child(6),  ul li:nth-child(3), ul li:nth-child(4),  ul li:nth-child(5),  ul li:nth-child(2){
+        
+        font-size:0.9em ;  
+        text-wrap: nowrap;  
+    }
+   .section1 .item h1, .section2 .item h1, .section3 .item h1{
+    font-size: 2rem;
+    
+   }
+   .section1 .item h1:nth-child(2), .section2 .item h1:nth-child(2), .section3 .item h1:nth-child(2){
+    font-size: 2.5rem;
+    line-height: 40px;
+   }
+
+}
+
+@media (max-width: 950px){
+    .section3 .item img{
+        height: 300px;
+        width: 400px;
+    }
+
+    .nav-container ul li:nth-child(6),  ul li:nth-child(3), ul li:nth-child(4),  ul li:nth-child(5),  ul li:nth-child(2){
+        text-wrap: nowrap;
+        font-size:0.8em ;  
+        margin: 0px -20px;  
+    }
+
+    .section1 .item p, .section3 .item p, .section2 .item p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 800px){
+    .section1 .item img, .section2 .item img, .section3 .item img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .section1 .item h1, .section2 .item h1, .section3 .item h1{
+        font-size: 1.5rem;
+        
+       }
+       .section1 .item h1:nth-child(2), .section2 .item h1:nth-child(2), .section3 .item h1:nth-child(2){
+        font-size: 1.5rem;
+        line-height: 40px;
+       }
+
+       .nav-container ul li:first-child{
+        margin-left: -50px;
+    }
+    
+    .main1 h1{
+        font-size: 1.7rem;
+    }
+    .main1 p{
+        font-size: 0.95rem;
+    }
+    .main2{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 695px){
+    ul li:nth-child(3), ul li:nth-child(4),  ul li:nth-child(5),  ul li:nth-child(2){
+    display: none;
+    }
+    .main1 h1{
+        font-size: 1.5rem;
+    }
+    
+    .nav-container ul li:nth-child(7){
+        display: block;
+        margin-right: -60px;
+        margin-top: 7px;
+    }
+   
+    
+}
+
+@media (max-width: 550px){
+    .section1 .item img, .section2 .item img, .section3 .item img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .section3 .item .word, .section2 .item .word, .section1 .item .word{
+        text-align: center; 
+        line-height:30px;
+        margin-top: -50px;
+    }
+
+   
+       .section1 .item h1:nth-child(2), .section2 .item h1:nth-child(2), .section3 .item h1:nth-child(2){
+        font-size: 1.2rem;
+        line-height: 40px;
+       }
+       .section1 .item p, .section3 .item p, .section2 .item p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .footer-word{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    
+    }
+
+    .section3 .item,  .section1 .item,  .section2 .item{
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .main1 p{
+        padding: 0px 10px;
+    }
+}
+
