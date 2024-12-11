@@ -81,6 +81,7 @@
 }
 
 @media (max-width: 550px){
+   
     .section1 .item img, .section2 .item img, .section3 .item img{
         height: 180px;
         width: 180px;
